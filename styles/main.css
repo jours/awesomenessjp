@@ -1,0 +1,25 @@
+body {
+	font-size: 0.8em;
+	font-family: arial, sans-serif;
+	background-color: #fff;
+}
+
+
+.demo-full {
+    margin-bottom: 30px;
+    margin-top: -30px;
+    position: relative;
+    width: 100%;
+		background-color: red;
+}
+.demo-full figcaption {
+    position: absolute;
+    top: 20px;
+}
+.demo-full figcaption .alert {
+    font-size: smaller;
+    padding: 5px 10px;
+}
+figure.demo-full {
+    min-height: 120px;
+}
